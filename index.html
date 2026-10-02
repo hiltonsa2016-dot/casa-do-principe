@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa do Príncipe</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f1e8;
+      color: #222;
+    }
+
+    header {
+      background: #1f4d3a;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 15px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .boas-vindas {
+      background: white;
+      padding: 20px;
+      border-radius: 18px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .boas-vindas h2 {
+      color: #1f4d3a;
+      margin-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 22px 15px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+      cursor: pointer;
+    }
+
+    .card .icone {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      color: #1f4d3a;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #777;
+      font-size: 13px;
+    }
+
+    @media (min-width: 700px) {
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ilê Axé Omo Aladê</h1>
+    <p>A Casa do Príncipe</p>
+  </header>
+
+  <main class="container">
+
+    <section class="boas-vindas">
+      <h2>Bem-vindo à Casa do Príncipe</h2>
+      <p>
+        Sistema de gestão, organização e memória do Ilê Axé Omo Aladê.
+      </p>
+    </section>
+
+    <section class="grid">
+
+      <div class="card">
+        <div class="icone">📅</div>
+        <h3>Agenda</h3>
+        <p>Compromissos e atividades</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">🎉</div>
+        <h3>Eventos</h3>
+        <p>Festas e celebrações</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">👥</div>
+        <h3>Membros</h3>
+        <p>Organização da comunidade</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">🌿</div>
+        <h3>Projetos</h3>
+        <p>Ações culturais e ambientais</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">💰</div>
+        <h3>Financeiro</h3>
+        <p>Receitas e despesas</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">📄</div>
+        <h3>Documentos</h3>
+        <p>Arquivos da Casa</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">📢</div>
+        <h3>Comunicação</h3>
+        <p>Avisos e informações</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">🌎</div>
+        <h3>Ações Socioambientais</h3>
+        <p>Cuidado com o território</p>
+      </div>
+
+      <div class="card">
+        <div class="icone">📊</div>
+        <h3>Relatórios</h3>
+        <p>Acompanhamento da gestão</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    Ilê Axé Omo Aladê – A Casa do Príncipe
+  </footer>
+
+</body>
+</html>
